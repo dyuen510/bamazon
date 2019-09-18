@@ -14,16 +14,7 @@ CREATE TABLE products (
     PRIMARY KEY(id) /* if you don't do line 11, you get an error */
 );
 
-/* CREATE TABLE pets (
-    id INT NOT NULL AUTO_INCREMENT,
-    student_id INT NOT NULL,
-    pet_name VARCHAR(255) NOT NULL,
-    FOREIGN KEY (student_id) REFERENCES students(id),
-    PRIMARY KEY (id)
-); */
 
-/* inserts two rows*/
-/* do not insert into the id column*/
 INSERT INTO products (product_name, department_name, price, stock_quantity) 
 VALUES 
 ('Cold Brew', 'Beverages', 4, 100),
