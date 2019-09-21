@@ -1,6 +1,9 @@
 # bamazon
 
 Bamazon is like an Amazon-like storefront created with MySQL and Node. 
+
+bmazonCustomer.js
+
 The app would take in orders from the user and deplete the stock from the store's inventory when the user purchases the item. 
 
 <div align="center">
@@ -37,3 +40,29 @@ By continuing it would go back to the ordering process.
 
 Instead of continuing with the purchase. The other option on the list is to exit.
 Once exit is chosen. Exiting message is displayed and connection is ended. 
+
+bamazonManager.js
+
+The app can also run from manager's view. Will give manager's control of the inventory such as viewing whole inventory or low inventory. Control of restocking inventory as well as adding a new product to the inventory. 
+<div align="center">
+    <img src="images/choices.png" width="400px"</img> 
+</div>
+Manager's view have different choices to select from compared to customer view. Several choices are shown as a list for the user to 
+choose from. 
+
+<div align="center">
+    <img src="images/view.png" width="400px"</img> 
+</div>
+Full table of all products available in inventory.
+
+
+<div align="center">
+    <img src="viewlow/.png" width="400px"</img> 
+</div>
+Option to view low inventory. Will only show products that have a quantity of 15 or less. 
+
+
+<div align="center">
+    <img src="images/restock.png" width="400px"</img> 
+</div>
+The add to inventory would allow the user to select a product based on the product id and would allow the user to increase quantity of the product. 
